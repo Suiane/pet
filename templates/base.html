@@ -1,0 +1,14 @@
+{% load static %}
+<html>
+    <head><title>Postagens</title></head>
+    <body>
+        <header>
+            <h1><a href ="{% url 'listagem' %}">Postagens</a></h1>
+            <h1><a href ="{% url 'post_new' %}">Novo Post</a></h1>
+        </header>
+    <div>
+    {% block content %}
+    {% endblock content %}
+    </div>
+    </body>
+</html>

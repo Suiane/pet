@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../static/css/cadastro.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <main>
+    <div class="container">
+  <h2>Small Pets - Cadastro</h2>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Seu email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Senha:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Sua senha" name="pswd">
+    </div>
+    <div class="form-group">
+            <label for="pwd">Confirmar Senha:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Sua senha" name="pswd">
+    </div>
+    
+    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Sou empresa</button>
+    <div id=demo class="collapse">
+            <div class="form-group">
+                <br>
+                <label for="cnpj">Cnpj:</label>
+                <input type="number" class="form-control" id="cnpj" placeholder="Cnpj da empresa" name="cnpj">
+            </div> 
+    </div>
+
+    <a href="/homeuser/" class="btn btn-primary">Cadastrar</a>
+    
+</div>
+  
+
+
+
+</form> 
+  <!-- <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                <label class="custom-control-label" for="customRadioInline1">Clique neste radio personalizado</label>
+            </div>
+
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                <label class="custom-control-label" for="customRadioInline2" onselect="Mudarestado('legal')">Ou clique neste outro radio personalizado</label>
+            </div>
+
+        <label id="legal" hidden>Top</label> -->
+    </main>
+        <footer class="text-muted">
+            <div class="container">
+              <p>© Small Pets</p>
+            </div>
+        </footer>
+    </body>
+
+</html>

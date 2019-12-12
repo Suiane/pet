@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class ="post-">
+<h2>{{ post.titulo }}</h2>
+<p>{{ post.texto }}</p>
+</div>
+<a href="{% url 'post_edit' post.pk %}">Editar Postagem</a>
+|<a href="{% url 'post_delete' post.pk %}">Deletar Post</a>
+{% endblock content %}
